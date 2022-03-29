@@ -8,19 +8,18 @@
 }
 
 body {
-	background: #141414;
-	color: #ffffff;
+  background: #141414;
+  color: #fff;
 }
 
 .movie-app > .row {
-	overflow-x: auto;
-	flex-wrap: nowrap;
+  overflow-x: auto;
+  flex-wrap: nowrap;
 }
 
-.row>* {
+.row > * {
   width: inherit;
 }
-
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -47,6 +46,7 @@ body {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
